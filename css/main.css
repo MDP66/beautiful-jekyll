@@ -58,7 +58,7 @@ layout: null
     url('/fonts/IranianSans/woff2/IRANSansWeb.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/
     url('/fonts/IranianSans/woff/IRANSansWeb.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
     url('/fonts/IranianSans/ttf/IRANSansWeb.ttf') format('truetype');
-
+}
 body {
   font-family: IRANSans,'Lora', 'Times New Roman', serif;
   font-size: 18px;
