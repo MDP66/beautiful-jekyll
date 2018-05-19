@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: چگونگی اتصال دامین ir به github pages
 subtitle: چگونه بدون داشتن هاست یک وب سایت داشته باشیم.
 image: /img/githubpages.jpg
