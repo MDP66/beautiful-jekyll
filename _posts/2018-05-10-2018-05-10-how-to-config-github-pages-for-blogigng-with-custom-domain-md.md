@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: how-to-config-github-pages-for-blogigng-with-custom-domain.md
 ---
 چگونگی اتصال دامین ir به github pages
