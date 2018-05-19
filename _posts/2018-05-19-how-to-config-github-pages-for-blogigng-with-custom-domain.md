@@ -3,7 +3,8 @@ layout: post
 published: true
 title: چگونگی اتصال دامین ir به github pages
 subtitle: چگونه بدون داشتن هاست یک وب سایت داشته باشیم.
-image: /img/githubpages.jpg
+bigimg: /img/githubpages.jpg
+comments: true
 date: '2018-05-19'
 ---
 این وبلاگ بر روی سرویس [github pages](https://pages.github.com/) با استفاده از ابزاری به نام [Jeklly](https://jekyllrb.com/) ساخته شده.
