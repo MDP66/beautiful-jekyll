@@ -1,4 +1,14 @@
 <div style="background-color:#f5f4f4;padding:10px;margin-top:10px;">
+{% assign comments = site.data.comments | sort %}
+
+{% for comment in comments reversed %}
+  {% assign commentData = comment[1] %}
+    <div>
+      {{ commentData.message }}</br>
+      From: {{ commentData.name }}</br>
+      {{ commentData.date | date_to_long_string }}
+    </div>
+{% endfor %}
 <div class="alert alert-primary hidden" role="alert" id="send_success">
   سپاس، کامنت شما دریافت شد و بعد از تایید نمایش داده خواهد شد.
 </div>
