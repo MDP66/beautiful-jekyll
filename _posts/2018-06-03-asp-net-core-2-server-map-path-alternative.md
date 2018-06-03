@@ -5,7 +5,7 @@ title: پیدا کردن root در asp.net core 2
 subtitle: پیدا کردن root در asp.net core 2
 ---
 ## پیدا کردن root در asp.net core 2
-<div  style="direction:rtl">
+
 در asp.net قبل از core برای پیدا کردن آدرس فیزیکی یک فایل از `Server.MapPath` استفاده می شد.
 
 درساختار asp.net core دیگه خبری از Server نیست و باید از middleware های داخلی جهت دستیابی به امکانات قبلی استفاده کرد.
@@ -13,7 +13,7 @@ subtitle: پیدا کردن root در asp.net core 2
 یکی از این middleware ها `IHostingEnvironment` هست.
 
 در asp.net core برای پیدا کردن root می تونید از دستور زیر استفاده کنید
-</div>
+
 ```C#
 public class SampleController : Controller
 {
