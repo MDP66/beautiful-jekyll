@@ -144,7 +144,7 @@ var main = {
     var form = this;
 
     $(form).addClass('disabled');
-    $('#comment-form-submit').html('<svg class="icon spin"><use xlink:href="#icon-loading"></use></svg> Loading...');
+    $('#comment-form-submit').html('<svg class="icon spin"><use xlink:href="#icon-loading"></use></svg> در حال ارسال کامنت شما...');
 
     $.ajax({
       type: $(this).attr('method'),
@@ -152,7 +152,7 @@ var main = {
       data: $(this).serialize(),
       contentType: 'application/x-www-form-urlencoded',
       success: function (data) {
-        $('#comment-form-submit').html('Submitted');
+        $('#comment-form-submit').html('ارسال');
         $('.post__comments-form .js-notice').removeClass('notice--danger').addClass('notice--success');
         showAlert('<strong>Thanks for your comment!</strong> It will show on the site once it has been approved.');
       },
@@ -169,8 +169,7 @@ var main = {
   });
 
   function showAlert(message) {
-    $('.post__comments-form .js-notice').removeClass('hidden');
-    $('.post__comments-form .js-notice-text').html(message);
+    $('#send_success').removeClass('hidden').show();    
   }
 })(jQuery);
 document.addEventListener('DOMContentLoaded', main.init);
