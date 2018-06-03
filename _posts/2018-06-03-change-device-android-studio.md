@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: Change-Default-Debug-Device-in-android-Studio
 subtitle: تغییر device پیش فرض در android studio
 ---
