@@ -8,10 +8,9 @@
           {% endif %}
           Comments
         </h2>
-        {% assign comments = site.data.comments[page.slug] | sort | where_exp: 'comment', 'comment[1].replying_to == blank' %}
+        {% assign comments = site.data.comments[page.slug] | sort %}
         {% for comment in comments %}
           {% assign index       = forloop.index %}
-          {% assign replying_to = comment[1].replying_to | to_integer %}
           {% assign avatar      = comment[1].avatar %}
           {% assign email       = comment[1].email %}
           {% assign name        = comment[1].name %}
