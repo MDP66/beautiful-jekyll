@@ -1,5 +1,4 @@
-<div style="background-color:#f5f4f4;padding:10px;margin-top:10px;">
-    {% if site.data.comments[page.slug] %}
+{% if site.data.comments[page.slug] %}
       <!-- Start static comments -->
       <div id="comments" class="js-comments">
         <h3 class="page__section-label">
@@ -22,7 +21,8 @@
       </div>
       <!-- End static comments -->
     {% endif %}
-
+<hr/>
+<div style="background-color:#f5f4f4;padding:10px;margin-top:10px;">
 <div class="alert alert-primary hidden" role="alert" id="send_success">
   سپاس، کامنت شما دریافت شد و بعد از تایید نمایش داده خواهد شد.
 </div>
