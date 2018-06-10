@@ -1,0 +1,57 @@
+---
+hide_body: false
+is_partial: false
+fields:
+- name: layout
+  label: Layout
+  type: text
+  hidden: false
+  default: post
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: bigimg
+  label: Bigimg
+  type: text
+  hidden: false
+  default: ''
+- name: tags
+  label: Tags
+  type: tag_list
+  hidden: false
+  default: ''
+- name: date
+  label: Date
+  type: datetime
+  hidden: false
+  default: ''
+- name: subtitle
+  label: Subtitle
+  type: text
+  hidden: false
+  default: ''
+- name: comments
+  label: Comments
+  type: boolean
+  hidden: false
+  default: true
+- name: show-avatar
+  label: Show avatar
+  type: boolean
+  hidden: false
+  default: true
+- name: social-share
+  label: Social share
+  type: boolean
+  hidden: false
+  default: true
+pages:
+- _posts/2018-06-03-change-device-android-studio.md
+- _posts/2018-06-03-asp-net-core-2-server-map-path-alternative.md
+- _posts/2018-05-30--sql-server-management-studio.md
+- _posts/2018-05-19-how-to-config-github-pages-for-blogigng-with-custom-domain.md
+- _posts/2018-05-10-2018-05-10-how-to-config-github-pages-for-blogigng-with-custom-domain-md.md
+- _posts/2018-05-09-fromzero-bloging-idea.md
+- _posts/2018-05-04-hello-world.md
