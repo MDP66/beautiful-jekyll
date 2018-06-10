@@ -48,7 +48,7 @@ fields:
   hidden: false
   default: true
 pages:
-- _posts/message-queue.md
+- _posts/2018-06-10-message-queue.md
 - _posts/2018-06-03-change-device-android-studio.md
 - _posts/2018-06-03-asp-net-core-2-server-map-path-alternative.md
 - _posts/2018-05-30--sql-server-management-studio.md
